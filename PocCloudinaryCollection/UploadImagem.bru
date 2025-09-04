@@ -1,0 +1,25 @@
+meta {
+  name: UploadImagem
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/upload
+  body: multipartForm
+  auth: inherit
+}
+
+body:json {
+  {
+    "titulo": "teste",
+    "descricao": "teste"}
+}
+
+body:multipart-form {
+  file: @file(C:\Users\rennan.moura_dotz\Downloads\Marca Penélope\Marca Penélope\Penélope  - IDV\Banco de Imagens (IA)\Firefly_pessoa feliz olhando através da janela para uam cidade com prédios do seu apartamento 272726.jpg)
+}
+
+settings {
+  encodeUrl: true
+}
