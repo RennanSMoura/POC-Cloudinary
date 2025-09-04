@@ -61,14 +61,20 @@ npm start
 ### 📁 Estrutura de Pastas
 
 poc-cloudinary-upload/
+
 ├── backend/
+
 │   └── src/main/java/Penelope/PocCloudinary/
+
 │       ├── controller/cloudnaryController.java
 │       └── service/cloudnaryService.java
+
 ├── frontend/
 │   ├── src/
+
 │   │   ├── App.jsx
 │   │   └── UploadImagem.jsx
+
 └── README.md
 
 ### ⚠️ Observações
